@@ -5,9 +5,9 @@ disabledAI = true;
 enableDebugConsole = 1;
 allowFunctionsLog = 0;
 
-loadScreen="res\liberation.jpg";
+loadScreen="tmg_custom\images\loading.jpg";
 onLoadMission = $STR_MISSION_TITLE;
-author = "[GREUH] Zbug, [GREUH] McKeewa";
+author = "[GREUH] Zbug, [GREUH] McKeewa, edited by TMG";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 0;

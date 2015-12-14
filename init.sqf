@@ -29,3 +29,16 @@ if (!isDedicated && hasInterface) then {
 } else {
 	setViewDistance 1600;
 };
+
+if (isServer) then {
+	[] spawn {
+		waitUntil {
+			sleep 2;
+			_objects = allUnits + vehicles;
+			{
+				_x addCuratorEditableObjects [_objects,true];
+			} foreach allCurators;
+			false;
+		};
+	};
+};

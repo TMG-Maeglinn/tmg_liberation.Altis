@@ -10,10 +10,10 @@
 
 // FOB_typename = "Land_Cargo_HQ_V1_F";
 // FOB_box_typename = "B_Slingload_01_Cargo_F";
-// FOB_truck_typename = "B_Truck_01_box_F";
+FOB_truck_typename = "rhsusf_M1083A1P2_B_M2_d_MHQ_fmtv_usarmy";
 // Arsenal_typename = "B_supplyCrate_F";
-// Respawn_truck_typename = "B_Truck_01_medical_F";
-// huron_typename = "B_Heli_Transport_03_unarmed_F";
+// Respawn_truck_typename = "rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy";
+huron_typename = "RHS_CH_47F_light";
 // ammobox_b_typename = "Box_NATO_AmmoVeh_F";
 // ammobox_o_typename = "Box_East_AmmoVeh_F";
 // opfor_ammobox_transport = "O_Truck_03_transport_F";
@@ -89,6 +89,7 @@ buildings_extension = [
 ];
 
 support_vehicles_extension = [
+["rhsusf_M978A2_usarmy_wd",10,0,5],
 ["JNS_Skycrane_Pod_Bench_BLU_Black",5,0,0],
 ["JNS_Skycrane_Pod_Ammo_BLU_Black",5,0,0],
 ["JNS_Skycrane_Pod_Medical_BLU_Black",5,0,0],
