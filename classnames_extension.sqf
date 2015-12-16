@@ -43,10 +43,15 @@ light_vehicles_extension = [
 ["rhsusf_M1078A1P2_B_d_fmtv_usarmy",0,0,5],
 ["rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy",0,25,5],
 ["rhsusf_M1083A1P2_d_fmtv_usarmy",0,0,5],
+["rhsusf_m113_usarmy",0,25,15],
+["rhsusf_m113_usarmy_M240",0,25,15],
+["rhsusf_m113_usarmy_MK19",0,40,15],
 ["rhsusf_m113d_usarmy_unarmed",0,0,15]
 ];
 
 heavy_vehicles_extension = [
+["RHS_M2A2_wd",0,200,15],
+["RHS_M2A2_BUSKI_WD",0,250,15],
 ["RHS_M2A3_wd",0,200,15],
 ["RHS_M2A3_BUSKI_wd",0,250,15],
 ["RHS_M2A3_BUSKIII_wd",0,300,15],
@@ -61,8 +66,11 @@ heavy_vehicles_extension = [
 ];
 
 air_vehicles_extension = [
-["RHS_UH60M",0,10,5],
-["RHS_UH1Y_UNARMED_d",0,10,5],
+["RHS_UH60M",0,0,5],
+["RHS_UH60M_MEV2",0,0,5],
+["RHS_UH60M_MEV",0,0,5],
+["RHS_UH1Y_UNARMED_d",0,0,5],
+["RHS_UH1Y_FFAR",0,200,15],
 ["RHS_UH1Y",0,200,15],
 ["RHS_CH_47F_10",0,30,15],
 ["RHS_AH1Z_wd_GS",0,300,30],
@@ -83,7 +91,7 @@ static_vehicles_extension = [
 ];
 
 buildings_extension = [
-
+["Land_TentHangar_V1_F",0,0,0]
 ];
 
 support_vehicles_extension = [
