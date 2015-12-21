@@ -56,17 +56,28 @@ heavy_vehicles_extension = [
 ["RHS_M2A3_BUSKI_wd",0,250,15],
 ["RHS_M2A3_BUSKIII_wd",0,300,15],
 ["RHS_M6_wd",0,250,15],
-["rhsusf_m1a1fep_wd",0,400,25],
-["rhsusf_m1a1aimwd_usarmy",0,400,25],
-["rhsusf_m1a2sep1wd_usarmy",0,425,25],
-["rhsusf_m1a1aim_tuski_wd",0,450,25],
-["rhsusf_m1a2sep1tuskiwd_usarmy",0,475,25],
-["rhsusf_m1a2sep1tuskiiwd_usarmy",0,500,25],
+["rhsusf_m1a1fep_wd",0,300,25],
+["rhsusf_m1a1aimwd_usarmy",0,300,25],
+["rhsusf_m1a2sep1wd_usarmy",0,325,25],
+["rhsusf_m1a1aim_tuski_wd",0,350,25],
+["rhsusf_m1a2sep1tuskiwd_usarmy",0,375,25],
+["rhsusf_m1a2sep1tuskiiwd_usarmy",0,400,25],
 ["rhsusf_m109_usarmy",0,1500,30]
 ];
 
 air_vehicles_extension = [
 ["RHS_UH60M",0,0,5],
+["rhsusf_CH53E_USMC",0,0,5],
+["RHS_C130J",0,0,5],
+["RHS_A10",0,600,50],
+["rhsusf_f22",0,600,50],
+["RHS_T50_vvs_blueonblue",0,600,50],
+["RHS_Su25SM_vvs",0,600,50],
+["RHS_Su25SM_KH29_vvs",0,600,50],
+["RHS_Ka52_UPK23_vvs",0,500,50],
+["rhs_ka60_c",0,0,5],
+["RHS_Mi24P_CAS_vdv",0,600,50],
+["RHS_Mi24V_vvsc",0,600,50],
 ["RHS_UH60M_MEV2",0,0,5],
 ["RHS_UH60M_MEV",0,0,5],
 ["RHS_UH1Y_UNARMED_d",0,0,5],
@@ -74,10 +85,9 @@ air_vehicles_extension = [
 ["RHS_UH1Y",0,200,15],
 ["RHS_CH_47F_10",0,30,15],
 ["RHS_AH1Z_wd_GS",0,300,30],
-["RHS_AH64D_GS",0,800,50],
-["RHS_AH64DGrey",0,1200,50],
-["RHS_AH64D_AA",0,1200,50],
-["RHS_A10",0,800,50]
+["RHS_AH64D_GS",0,500,50],
+["RHS_AH64DGrey",0,600,50],
+["RHS_AH64D_AA",0,600,50]
 ];
 
 static_vehicles_extension = [
