@@ -14,9 +14,9 @@ joinUnassigned = 0;
 
 class Header
 {
-	gameType = CTI;
+	gameType = CO-OP;
 	minPlayers = 1;
-	maxPlayers = 41;
+	maxPlayers = 36;
 };
 
 #include "GREUH\UI\GREUH_interface.hpp"
