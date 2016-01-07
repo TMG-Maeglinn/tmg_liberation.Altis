@@ -1,4 +1,3 @@
-
 // For this entire file: classnames that come from mods you don't have will be filtered out and won't cause any issues. You just won't see them ingame.
 
 
@@ -185,7 +184,7 @@ ai_resupply_sources = [ Respawn_truck_typename, huron_typename, Arsenal_typename
 // Everything that can resupply other vehicles
 vehicle_repair_sources = [ "B_APC_Tracked_01_CRV_F", "C_Offroad_01_repair_F", "B_Truck_01_Repair_F", "B_Slingload_01_Repair_F", "JNS_Skycrane_Pod_Repair_BLU_Black" ];
 vehicle_rearm_sources = [ "B_APC_Tracked_01_CRV_F", "B_Truck_01_ammo_F", "B_Slingload_01_Ammo_F", "JNS_Skycrane_Pod_Ammo_BLU_Black" ];
-vehicle_refuel_sources = [ "B_APC_Tracked_01_CRV_F", "B_Truck_01_fuel_F", "B_Slingload_01_Fuel_F", "rhsusf_M978A2_usarmy_wd" ];
+vehicle_refuel_sources = [ "B_APC_Tracked_01_CRV_F", "B_Truck_01_fuel_F", "B_Slingload_01_Fuel_F" ];
 
 // Commander
 commander_classname = "B_officer_F";

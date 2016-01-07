@@ -12,9 +12,8 @@ add folowing to init.sqf. Put rank.sqf inside scripts folder
 */
 
 // Wait for in game
-waitUntil { !(isNil "GRLIB_player_scores") };
-waitUntil { !isNil "save_is_loaded" };
-sleep 2;
+// waitUntil { !isNil "save_is_loaded" };
+sleep 20;
 
 // Rank/UID list. Use Example Below.
 //UID Example: Ranks_CORPORAL        =    ["7656xxxxxxxxxxxxxx","7656xxxxxxxxxxxxxx"]; no trailing coma
