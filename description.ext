@@ -14,7 +14,7 @@ joinUnassigned = 0;
 
 class Header
 {
-	gameType = CO-OP;
+	gameType = CTI;
 	minPlayers = 1;
 	maxPlayers = 36;
 };

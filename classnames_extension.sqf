@@ -12,7 +12,7 @@
 // FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "rhsusf_M1083A1P2_B_M2_d_MHQ_fmtv_usarmy";
 // Arsenal_typename = "B_supplyCrate_F";
-// Respawn_truck_typename = "rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy";
+// Respawn_truck_typename = "B_Truck_01_medical_F";
 huron_typename = "RHS_CH_47F_light";
 // ammobox_b_typename = "Box_NATO_AmmoVeh_F";
 // ammobox_o_typename = "Box_East_AmmoVeh_F";
@@ -66,8 +66,12 @@ heavy_vehicles_extension = [
 ];
 
 air_vehicles_extension = [
-["RHS_UH60M",0,0,5],
-["rhsusf_CH53E_USMC",0,0,5],
+<<<<<<< HEAD
+["I_Heli_light_03_unarmed_F",0,0,12],
+["I_Heli_light_03_F",0,50,12],
+["I_Heli_Transport_02_F",0,0,25],
+["I_Plane_Fighter_03_AA_F",0,50,30],
+["I_Plane_Fighter_03_CAS_F",0,100,30],
 ["RHS_C130J",0,0,5],
 ["RHS_A10",0,600,50],
 ["rhsusf_f22",0,600,50],
@@ -78,6 +82,9 @@ air_vehicles_extension = [
 ["rhs_ka60_c",0,0,5],
 ["RHS_Mi24P_CAS_vdv",0,600,50],
 ["RHS_Mi24V_vvsc",0,600,50],
+["RHS_CH_47F",0,20,20],
+["rhsusf_CH53E_USMC",0,0,5],
+["RHS_UH60M",0,0,5],
 ["RHS_UH60M_MEV2",0,0,5],
 ["RHS_UH60M_MEV",0,0,5],
 ["RHS_UH1Y_UNARMED_d",0,0,5],
@@ -85,9 +92,10 @@ air_vehicles_extension = [
 ["RHS_UH1Y",0,200,15],
 ["RHS_CH_47F_10",0,30,15],
 ["RHS_AH1Z_wd_GS",0,300,30],
-["RHS_AH64D_GS",0,500,50],
-["RHS_AH64DGrey",0,600,50],
-["RHS_AH64D_AA",0,600,50]
+["RHS_AH64D_wd",0,400,50],
+["RHS_AH64D_GS",0,400,50],
+["RHS_AH64DGrey",0,400,50],
+["RHS_AH64D_AA",0,400,50]
 ];
 
 static_vehicles_extension = [
@@ -106,4 +114,24 @@ buildings_extension = [
 
 support_vehicles_extension = [
 ["rhsusf_M978A2_usarmy_wd",10,0,5]
+];
+
+elite_vehicles_extension = [
+"rhsusf_m109_usarmy",
+"I_Plane_Fighter_03_AA_F",
+"I_Plane_Fighter_03_CAS_F",
+"RHS_A10",
+"rhsusf_f22",
+"RHS_T50_vvs_blueonblue",
+"RHS_Su25SM_vvs",
+"RHS_Su25SM_KH29_vvs",
+"RHS_Ka52_UPK23_vvs",
+"rhs_ka60_c",
+"RHS_Mi24P_CAS_vdv",
+"RHS_Mi24V_vvsc",
+"RHS_AH1Z_wd_GS",
+"RHS_AH64D_wd",
+"RHS_AH64D_GS",
+"RHS_AH64DGrey",
+"RHS_AH64D_AA"
 ];

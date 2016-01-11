@@ -42,3 +42,6 @@ if (isServer) then {
 		};
 	};
 };
+
+//Set player ranks based on UID
+[] execVM "tmg_custom\scripts\ranks.sqf";
