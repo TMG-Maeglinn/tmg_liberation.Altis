@@ -66,7 +66,6 @@ heavy_vehicles_extension = [
 ];
 
 air_vehicles_extension = [
-<<<<<<< HEAD
 ["I_Heli_light_03_unarmed_F",0,0,12],
 ["I_Heli_light_03_F",0,50,12],
 ["I_Heli_Transport_02_F",0,0,25],
